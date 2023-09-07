@@ -14,9 +14,7 @@ on:
     branches: [ "main" ]
 
 permissions:
-  contents: read
-
-run-on: 
+  contents: read 
 
 jobs:
   build:
