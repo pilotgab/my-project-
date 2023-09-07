@@ -34,7 +34,7 @@ jobs:
         arguments: build
 
     - name: Build and Push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v4
+      uses: docker/build-push-action@v4
       with:
         image: captaingab/demo-app
         registry: docker.io
