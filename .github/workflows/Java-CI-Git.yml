@@ -16,8 +16,6 @@ on:
 permissions:
   contents: read
 
-run-on: 
-
 jobs:
   build:
 
